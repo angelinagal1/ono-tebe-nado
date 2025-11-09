@@ -5,7 +5,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 85px 50px;
+  margin-bottom: 7px;
   font-size: 18px;
 }
 
@@ -46,6 +47,7 @@
   font-style: normal;
   line-height: 1.35;
   max-width: 240px;
+  margin-right: 37px;
 }
 
 .address {
@@ -56,12 +58,13 @@
 /* Cover */
 .cover {
   position: relative;
-  padding: 165px 50px 50px;
+  padding: 195px 20px 50px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   color: white;
   z-index: 0;
+  margin-bottom: -27px;
 }
 
 .overlay {
@@ -80,7 +83,9 @@
   text-transform: uppercase;
   line-height: 1.15;
   letter-spacing: 0.3em;
-  margin-bottom: 135px;
+  margin-bottom: 159px;
+  padding-left: 30px;
+  margin-top: -30px;
 }
 
 .aligned-text {
@@ -105,7 +110,9 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 78px;
+  gap: 108px;
+  margin-top: -58px;
+  margin-right: 33px;
 }
 
 .cover__description-text {
@@ -127,7 +134,8 @@
 
 /* Lots - ИСПРАВЛЕННЫЙ РАЗДЕЛ */
 .lots {
-  padding: 180px 50px;
+  padding: 210px 23px;
+  margin-bottom: -50px;
 }
 
 .lots__heading {
@@ -141,12 +149,12 @@
   display: flex;
   gap: 25px;
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .lots__card-list-item {
   flex: 1;
-  min-height: 450px;
+  min-height: 595px;
 }
 
 .card-link {
@@ -203,9 +211,10 @@
 /* About */
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 330px 1fr;
   gap: 25px;
-  padding: 0 50px 180px;
+  padding: 0 27px 180px;
+  margin-bottom: -6px;
 }
 
 .about__column {
@@ -247,7 +256,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 0 50px 90px;
+  padding: 0px 50px 90px;
   font-size: 18px;
 }
 
@@ -261,11 +270,12 @@
 }
 
 .footer__menu-list-item {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .footer__menu-link {
   text-underline-offset: 4px;
+  white-space: nowrap;
 }
 
 .footer__menu-link_active {
